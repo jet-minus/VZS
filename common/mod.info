@@ -1,6 +1,6 @@
 name=Variable Zombie Speed
 id=VariableZombieSpeed
 description=Sandbox-configurable night sprinters. Choose the exact in-game hours at which zombies switch between their day speed and their night speed.
-author=Michael
+author=jetminus
 modversion=0.2.0
 category=Misc
