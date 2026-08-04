@@ -1,0 +1,209 @@
+VERSION = 1,
+
+option VZS.Enable = {
+	type = boolean, default = true, page = VZS, translation = VZS_Enable,
+}
+
+option VZS.SeasonMode = {
+	type = enum, default = 2, numValues = 2, page = VZS, translation = VZS_SeasonMode, valueTranslation = VZS_SeasonMode,
+}
+
+option VZS.TimeMode = {
+	type = enum, default = 1, numValues = 2, page = VZS, translation = VZS_TimeMode, valueTranslation = VZS_TimeMode,
+}
+
+option VZS.ForceActiveOnly = {
+	type = boolean, default = true, page = VZS, translation = VZS_ForceActiveOnly,
+}
+
+option VZS.RefreshOnSwitch = {
+	type = boolean, default = true, page = VZS, translation = VZS_RefreshOnSwitch,
+}
+
+option VZS.RefreshBatch = {
+	type = integer, min = 25, max = 5000, default = 250, page = VZS, translation = VZS_RefreshBatch,
+}
+
+option VZS.SweepEnable = {
+	type = boolean, default = true, page = VZS, translation = VZS_SweepEnable,
+}
+
+option VZS.SweepInterval = {
+	type = integer, min = 1, max = 300, default = 30, page = VZS, translation = VZS_SweepInterval,
+}
+
+option VZS.SweepBatch = {
+	type = integer, min = 10, max = 2000, default = 100, page = VZS, translation = VZS_SweepBatch,
+}
+
+option VZS.SyncInterval = {
+	type = integer, min = 1, max = 300, default = 1, page = VZS, translation = VZS_SyncInterval,
+}
+
+option VZS.Notify = {
+	type = boolean, default = false, page = VZS, translation = VZS_Notify,
+}
+
+option VZS.Debug = {
+	type = boolean, default = false, page = VZS, translation = VZS_Debug,
+}
+
+option VZS.XpEnable = {
+	type = boolean, default = true, page = VZS_XP, translation = VZS_XpEnable,
+}
+
+option VZS.XpCombatSkills = {
+	type = boolean, default = true, page = VZS_XP, translation = VZS_XpCombatSkills,
+}
+
+option VZS.XpStrength = {
+	type = boolean, default = true, page = VZS_XP, translation = VZS_XpStrength,
+}
+
+option VZS.XpFitness = {
+	type = boolean, default = true, page = VZS_XP, translation = VZS_XpFitness,
+}
+
+option VZS.XpWindow = {
+	type = integer, min = 100, max = 5000, default = 1000, page = VZS_XP, translation = VZS_XpWindow,
+}
+
+option VZS.NightStart = {
+	type = double, min = 0.0, max = 24.0, default = 19.0, page = VZS_Default, translation = VZS_NightStart,
+}
+
+option VZS.NightEnd = {
+	type = double, min = 0.0, max = 24.0, default = 6.0, page = VZS_Default, translation = VZS_NightEnd,
+}
+
+option VZS.NightSpeed = {
+	type = enum, default = 1, numValues = 4, page = VZS_Default, translation = VZS_NightSpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.DaySpeed = {
+	type = enum, default = 3, numValues = 4, page = VZS_Default, translation = VZS_DaySpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.NightToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Default, translation = VZS_NightToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.DayToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Default, translation = VZS_DayToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.NightXp = {
+	type = double, min = 1.0, max = 10.0, default = 2.0, page = VZS_Default, translation = VZS_NightXp,
+}
+
+option VZS.SpringNightStart = {
+	type = double, min = 0.0, max = 24.0, default = 20.0, page = VZS_Spring, translation = VZS_SpringNightStart,
+}
+
+option VZS.SpringNightEnd = {
+	type = double, min = 0.0, max = 24.0, default = 6.0, page = VZS_Spring, translation = VZS_SpringNightEnd,
+}
+
+option VZS.SpringNightSpeed = {
+	type = enum, default = 1, numValues = 4, page = VZS_Spring, translation = VZS_SpringNightSpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.SpringDaySpeed = {
+	type = enum, default = 3, numValues = 4, page = VZS_Spring, translation = VZS_SpringDaySpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.SpringNightToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Spring, translation = VZS_SpringNightToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.SpringDayToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Spring, translation = VZS_SpringDayToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.SpringNightXp = {
+	type = double, min = 1.0, max = 10.0, default = 2.0, page = VZS_Spring, translation = VZS_SpringNightXp,
+}
+
+option VZS.SummerNightStart = {
+	type = double, min = 0.0, max = 24.0, default = 21.0, page = VZS_Summer, translation = VZS_SummerNightStart,
+}
+
+option VZS.SummerNightEnd = {
+	type = double, min = 0.0, max = 24.0, default = 5.5, page = VZS_Summer, translation = VZS_SummerNightEnd,
+}
+
+option VZS.SummerNightSpeed = {
+	type = enum, default = 1, numValues = 4, page = VZS_Summer, translation = VZS_SummerNightSpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.SummerDaySpeed = {
+	type = enum, default = 3, numValues = 4, page = VZS_Summer, translation = VZS_SummerDaySpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.SummerNightToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Summer, translation = VZS_SummerNightToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.SummerDayToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Summer, translation = VZS_SummerDayToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.SummerNightXp = {
+	type = double, min = 1.0, max = 10.0, default = 2.0, page = VZS_Summer, translation = VZS_SummerNightXp,
+}
+
+option VZS.AutumnNightStart = {
+	type = double, min = 0.0, max = 24.0, default = 19.0, page = VZS_Autumn, translation = VZS_AutumnNightStart,
+}
+
+option VZS.AutumnNightEnd = {
+	type = double, min = 0.0, max = 24.0, default = 6.5, page = VZS_Autumn, translation = VZS_AutumnNightEnd,
+}
+
+option VZS.AutumnNightSpeed = {
+	type = enum, default = 1, numValues = 4, page = VZS_Autumn, translation = VZS_AutumnNightSpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.AutumnDaySpeed = {
+	type = enum, default = 3, numValues = 4, page = VZS_Autumn, translation = VZS_AutumnDaySpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.AutumnNightToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Autumn, translation = VZS_AutumnNightToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.AutumnDayToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Autumn, translation = VZS_AutumnDayToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.AutumnNightXp = {
+	type = double, min = 1.0, max = 10.0, default = 2.0, page = VZS_Autumn, translation = VZS_AutumnNightXp,
+}
+
+option VZS.WinterNightStart = {
+	type = double, min = 0.0, max = 24.0, default = 17.0, page = VZS_Winter, translation = VZS_WinterNightStart,
+}
+
+option VZS.WinterNightEnd = {
+	type = double, min = 0.0, max = 24.0, default = 7.5, page = VZS_Winter, translation = VZS_WinterNightEnd,
+}
+
+option VZS.WinterNightSpeed = {
+	type = enum, default = 1, numValues = 4, page = VZS_Winter, translation = VZS_WinterNightSpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.WinterDaySpeed = {
+	type = enum, default = 3, numValues = 4, page = VZS_Winter, translation = VZS_WinterDaySpeed, valueTranslation = VZS_Speed,
+}
+
+option VZS.WinterNightToughness = {
+	type = enum, default = 1, numValues = 5, page = VZS_Winter, translation = VZS_WinterNightToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.WinterDayToughness = {
+	type = enum, default = 5, numValues = 5, page = VZS_Winter, translation = VZS_WinterDayToughness, valueTranslation = VZS_Toughness,
+}
+
+option VZS.WinterNightXp = {
+	type = double, min = 1.0, max = 10.0, default = 2.5, page = VZS_Winter, translation = VZS_WinterNightXp,
+}

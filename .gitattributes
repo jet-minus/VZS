@@ -1,0 +1,5 @@
+# Keep LF in the repository and in the working tree on every platform.
+# Project Zomboid dedicated servers commonly run on Linux, and this folder doubles as the live
+# mod directory, so letting Git rewrite the working copy to CRLF on Windows would silently
+# modify files the game is actively loading.
+* text=auto eol=lf
